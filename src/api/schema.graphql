@@ -1,0 +1,9 @@
+type Query {
+    page: [Page]
+}
+type Page {
+    user_id: ID
+    user_firstname: String,
+    user_lastname: String,
+    user_email : String
+}

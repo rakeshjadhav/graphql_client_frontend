@@ -1,10 +1,16 @@
 
 import './App.css';
+import Navbar  from './components/Navbar';
+import Home  from './components/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>GraphQl Appolo front end</h1>
+      
+      <Navbar />
+      <Home />
+
     </div>
   );
 }
